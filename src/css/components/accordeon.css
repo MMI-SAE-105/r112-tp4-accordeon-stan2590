@@ -1,3 +1,29 @@
 /**
 * Accordeon
 */
+
+ details {
+    display: flex;
+    position: relative;
+    width: 130px; 
+}
+
+ details[open] {
+    display: flex;
+    width: 300px;
+}
+
+ details > summary  {
+    display: flex;
+    position:absolute;
+    top: 0px; 
+    left: 0px;
+}
+
+ details > div { 
+    display: flex;
+    padding-left: 130px;
+    width: 170px; 
+}
+
+
